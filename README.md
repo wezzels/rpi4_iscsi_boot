@@ -5,17 +5,17 @@ Usage:  Create a ISCSI and TFTP server
   
 Create a ISCSI lun for a raspberry pi.
         
-  sudo ./make_host_disks.sh <Serial of the booting PI.>
+  sudo ./make_host_disks.sh \<Serial of the booting PI.\>
 
 Tools:
 
-  del_iscsi_lun.sh <Serial of the booting PI.>
+  del_iscsi_lun.sh \<Serial of the booting PI.\>
 
   get_serial.sh 
   
-  mount_target.sh <Serial of the booting PI.>
+  mount_target.sh \<Serial of the booting PI.\>
   
-  show_disk.sh <Serial of the booting PI.>
+  show_disk.sh \<Serial of the booting PI.\>
   
   umount_target.sh 
 
