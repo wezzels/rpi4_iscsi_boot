@@ -3,7 +3,7 @@ Usage:  Create a ISCSI and TFTP server
 
   sudo ./make_server_iscsi_target.sh
   
-        Create a ISCSI lun for a raspberry pi.
+Create a ISCSI lun for a raspberry pi.
         
   sudo ./make_host_disks.sh <Serial of the booting PI.>
 
@@ -22,11 +22,8 @@ Tools:
 
 Where Information and processes came from.
 
-https://software.fujitsu.com/jp/manual/manualfiles/m170005/j2ul2107/02enz203/j2107-00-09-06-03.html
-
-https://tech.xlab.si/blog/pxe-boot-raspberry-pi-iscsi/
-
-https://shawnwilsher.com/2020/05/network-booting-a-raspberry-pi-4-with-an-iscsi-root-via-freenas/
-
-https://opensource.com/article/20/3/kubernetes-raspberry-pi-k3s
+    https://software.fujitsu.com/jp/manual/manualfiles/m170005/j2ul2107/02enz203/j2107-00-09-06-03.html
+    https://tech.xlab.si/blog/pxe-boot-raspberry-pi-iscsi/
+    https://shawnwilsher.com/2020/05/network-booting-a-raspberry-pi-4-with-an-iscsi-root-via-freenas/
+    https://opensource.com/article/20/3/kubernetes-raspberry-pi-k3s
 
