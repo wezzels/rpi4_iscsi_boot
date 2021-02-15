@@ -1,0 +1,13 @@
+./setup_kernel.sh
+wget https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-12-04/2020-12-02-raspios-buster-armhf-lite.zip
+
+unzip 2020-12-02-raspios-buster-armhf-lite.zip
+
+./make_server_iscsi_target.sh
+#./make_host_disks.sh serial1
+#Uncomment these for your network.
+./make_host_disks.sh 016f32aa
+./make_host_disks.sh 1a2d4bd6
+./make_host_disks.sh 1fed94e0
+./make_host_disks.sh 3fc3ff64
+
