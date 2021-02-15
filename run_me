@@ -1,13 +1,15 @@
 ./setup_kernel.sh
-wget https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-12-04/2020-12-02-raspios-buster-armhf-lite.zip
+#Download Raspberry pi 20.10 server img file.  
+#	https://ubuntu.com/download/raspberry-pi
+wget https://cdimage.ubuntu.com/releases/20.10/release/ubuntu-20.10-preinstalled-server-arm64+raspi.img.xz
 
-unzip 2020-12-02-raspios-buster-armhf-lite.zip
+xz -d ubuntu-20.10-preinstalled-server-arm64+raspi.img.xz
 
 ./make_server_iscsi_target.sh
 #./make_host_disks.sh serial1
 #Uncomment these for your network.
-./make_host_disks.sh 016f32aa
-./make_host_disks.sh 1a2d4bd6
-./make_host_disks.sh 1fed94e0
-./make_host_disks.sh 3fc3ff64
+#	./make_host_disks.sh 016f32a0
+#	./make_host_disks.sh 1a2d4bd0
+#	./make_host_disks.sh 1fed9400
+#	./make_host_disks.sh 3fc3ff60
 
